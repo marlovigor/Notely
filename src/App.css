@@ -1,0 +1,126 @@
+.App {
+  display: block;
+  /*text-align: center;*/
+  border: 1px solid purple;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+header{
+  width: 100%;
+  height: 60px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  background: #343B40;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+section{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20%;
+  height: 600px;
+  padding: 0;
+  margin: 0;
+  background-color: #FF863A;
+}
+main{
+  position: absolute;
+  font-family: 'Indie Flower', cursive;
+  left: 20%;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 80%;
+  height: 600px;
+  margin: 0;
+  background-color: #FF863A;
+}
+.folders{
+  box-sizing: none;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  background-color: orange;
+  border-top: .5px solid black;
+  border-bottom: .5px solid black;
+  border-left: 10px solid pink;
+  border-right: 10px solid #343B40;
+  padding-left: 5px solid gray;
+  padding-right: 10px solid black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+ul{
+  padding: 0;
+}
+li{
+  margin-left: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.folders:hover{
+  background-color: green;
+}
+.folders:active{
+  background-color: gray;
+}
+.note{
+  color: #343B40;
+  width: 100%;
+  height: 30px;
+  font-family: 'Indie Flower', cursive;
+  background-color: #FFF795;
+  border-top: 1px solid #87FFEF;
+  border-bottom: 1px solid #87FFEF;
+  border-right: none;
+  border-left: none;
+}
+
+.exactNote{
+  color: #343B40;
+  background-color: #FFF795;
+  height: 100%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
